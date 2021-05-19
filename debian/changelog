@@ -1,0 +1,42 @@
+glslviewer (1.6.8) focal; urgency=medium
+
+  * Adding GlslScreenSaver as part of the bin package
+  * trying out travis CI deployment
+
+ -- Patricio Gonzalez Vivo <patriciogonzalezvivo@gmail.com>  Sun, 19 Jul 2020 11:13:21 -0700
+
+glslviewer (1.6.7) focal; urgency=medium
+
+  * Sixth attempt to make a .deb on my PPA
+
+ -- Patricio Gonzalez Vivo <patriciogonzalezvivo@gmail.com>  Thu, 16 Jul 2020 21:16:09 -0700
+
+glslviewer (1.6.6) focal; urgency=medium
+
+  * Fifth attempt to make a .deb on my PPA
+
+ -- Patricio Gonzalez Vivo <patriciogonzalezvivo@gmail.com>  Thu, 16 Jul 2020 20:52:49 -0700
+
+glslviewer (1.6.5) focal; urgency=medium
+
+  * Fourth attempt to make a .deb on my PPA
+
+ -- Patricio Gonzalez Vivo <patriciogonzalezvivo@gmail.com>  Thu, 16 Jul 2020 20:25:33 -0700
+
+glslviewer (1.6.4) focal; urgency=medium
+
+  *  Third attempt to make a .deb on my ppa
+
+ -- Patricio Gonzalez Vivo <patriciogonzalezvivo@gmail.com>  Thu, 16 Jul 2020 16:34:02 -0700
+
+glslviewer (1.6.3) focal; urgency=medium
+
+  * Second attempt to make a .deb package for my ppa
+
+ -- Patricio Gonzalez Vivo <patriciogonzalezvivo@gmail.com>  Thu, 16 Jul 2020 08:43:45 -0700
+
+glslviewer (1.6.2) focal; urgency=medium
+
+  * First official package
+
+ -- Patricio Gonzalez Vivo <patriciogonzalezvivo@gmail.com>  Wed, 15 Jul 2020 15:06:00 -0800
