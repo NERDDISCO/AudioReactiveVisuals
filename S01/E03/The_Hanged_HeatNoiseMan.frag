@@ -13,15 +13,15 @@ uniform float       u_time;
 #include "../../modules/lygia/generative/cnoise.glsl"
 #include "../../modules/lygia/space/scale.glsl"
 
-float thinkness = .05;
+float thinkness = .075;
 float scale = 1.0;
-float amount = 3.0;
+float amount = 1.0;
 float noiseSpeed = .15;
 float noiseSize = 10.0;
 float audioIntensity = .35;
 float glitchThreshold = .75;
 float glitchIntensity = .025;
-bool keepRatio = true;
+bool keepRatio = false;
 bool globalWave = true;
 
 void main (void) {
@@ -80,19 +80,14 @@ void main (void) {
         // Draw the heatmap on top of every pixel with a bit of audio distortion
         color.rgb = heatmap(st.x + audio.x);
 
-        // TODO: Figure out something that makes more sense
-        float colorVariation = tan(st.y / u_time);
-
-        // Use globalSt for one heatmap, not the stuff that domes afterwards to simpify the code
-
         // Add some more color variation
         if (globalSt.x >= 0.5) {
-            color.rgb *= heatmap(colorVariation + audio.x);
+            color.rgb *= heatmap(globalSt.y + audio.x);
         }
 
         // Add some more color variation
         if (globalSt.y <= 0.5) {
-            color.rgb *= heatmap(st.x + audio.x);
+            color.rgb *= heatmap(globalSt.x - audio.x);
         }
 
         // Make this pixel visible
