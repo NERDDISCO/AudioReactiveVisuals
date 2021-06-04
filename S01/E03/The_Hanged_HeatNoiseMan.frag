@@ -21,7 +21,7 @@ float noiseSize = 10.0;
 float audioIntensity = .35;
 float glitchThreshold = .75;
 float glitchIntensity = .025;
-bool keepRatio = false;
+bool keepRatio = true;
 bool globalWave = true;
 
 void main (void) {
