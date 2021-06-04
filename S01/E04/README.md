@@ -1,6 +1,6 @@
 <h1>Audio Reactive Visuals / S01E04 / The High Priestess Society</h1>
 
-![Render of "The High Priestess Society"](The_High_Priestess_Society.png)
+![Render of "The High Priestess Society"](The_High_Priestess_Society.jpg)
 
 - [Resources](#resources)
 
