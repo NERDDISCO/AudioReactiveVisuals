@@ -1,0 +1,10 @@
+{
+	"#include": {
+		"scope": "glsl",
+		"prefix": "include",
+		"body": [
+			"#include \"$1\""
+		],
+		"description": "Add #include"
+	}
+}
