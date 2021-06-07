@@ -15,6 +15,8 @@ I called this "The High Priestessssss" with 6 x s at the end as this represents 
 
 🎇 The final result: https://github.com/NERDDISCO/AudioReactiveVisuals/blob/main/S01/E04/The_High_Priestessssss.frag
 
+🎥 The Episode: https://youtu.be/DxYv8NEP9fg
+
 ## Resources
 
 * PixelSpirit: https://patriciogonzalezvivo.github.io/PixelSpiritDeck
@@ -44,7 +46,9 @@ I called this "The High Priestess Society" as the 5 unique circles combined with
 
 🎇 The final result: https://github.com/NERDDISCO/AudioReactiveVisuals/blob/main/S01/E04/The_High_Priestess_Society.frag
 
-🎥 A video using the shader with music from Pitch Black: https://youtu.be/CnLcKWEswRQ
+🎥 The Episode: https://youtu.be/_tGAd_Vl-4w
+
+🔊 A video using the shader with music from Pitch Black: https://youtu.be/CnLcKWEswRQ
 
 ## Resources
 
