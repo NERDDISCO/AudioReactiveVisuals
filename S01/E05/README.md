@@ -17,3 +17,18 @@
 ## Music
 
 * https://soundcloud.com/radiozora/deerfeeder-entangled
+
+
+## Warning
+
+If you run this shader in full-screen on a high resolution, it could happen that glslViewer is crashing like this:
+
+```
+2021-06-12 22:42:55.586 glslViewer[30347:1342614] GLDRendererMetal command buffer completion error: Error Domain=MTLCommandBufferErrorDomain Code=2 "Caused GPU Hang Error (IOAF code 3)" UserInfo={NSLocalizedDescription=Caused GPU Hang Error (IOAF code 3)}
+2021-06-12 22:42:55.668 glslViewer[30347:1343424] GLDRendererMetal command buffer completion error: Error Domain=MTLCommandBufferErrorDomain Code=1 "Discarded (victim of GPU error/recovery) (IOAF code 5)" UserInfo={NSLocalizedDescription=Discarded (victim of GPU error/recovery) (IOAF code 5)}
+2021-06-12 22:42:57.270 glslViewer[30347:1343823] GLDRendererMetal command buffer completion error: Error Domain=MTLCommandBufferErrorDomain Code=2 "Caused GPU Hang Error (IOAF code 3)" UserInfo={NSLocalizedDescription=Caused GPU Hang Error (IOAF code 3)}
+2021-06-12 22:42:57.271 glslViewer[30347:1342614] GLDRendererMetal command buffer completion error: Error Domain=MTLCommandBufferErrorDomain Code=4 "Ignored (for causing prior/excessive GPU errors) (IOAF code 4)" UserInfo={NSLocalizedDescription=Ignored (for causing prior/excessive GPU errors) (IOAF code 4)}
+zsh: abort      glslViewer audio_rms.frag --audio 1
+```
+
+This happens because the used functions `rms` and `energy` are executed for each pixel on the screen, even when the resulting value is always the same for every pixel. But as I had no idea on how to make this "good", this is the way right now :D
