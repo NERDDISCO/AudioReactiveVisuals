@@ -27,6 +27,7 @@ I called this "The High Priestessssss" with 6 x s at the end as this represents 
 * https://codepen.io/terabaud/pen/wvJomrq
 * https://codepen.io/terabaud/pen/qBrONxK
 * https://app.perflink.fr
+* https://twitter.com/TimPietrusky/status/1396423365368426497
 
 ## Music
 
@@ -48,7 +49,9 @@ I called this "The High Priestess Society" as the 5 unique circles combined with
 
 🎥 The Episode: https://youtu.be/_tGAd_Vl-4w
 
-🔊 A video using the shader with music from Pitch Black: https://youtu.be/CnLcKWEswRQ
+🔊 A demo using the shader with music from Pitch Black: https://youtu.be/CnLcKWEswRQ
+
+🎨 A static render of this work is showcased at "Making it Realm / Exhibition # 2021-05": https://www.makingitrealm.space/exhibitions/2021-05
 
 ## Resources
 
@@ -58,6 +61,7 @@ I called this "The High Priestess Society" as the 5 unique circles combined with
 * "glslViewer with Audio support" by Patricio Gonzalez Vivo: https://github.com/patriciogonzalezvivo/glslViewer/wiki/Compiling-with-Audio-and-Video-support
 * "lygia" by Patricio Gonzalez Vivo: https://github.com/patriciogonzalezvivo/lygia
 * "mix": https://www.khronos.org/registry/OpenGL-Refpages/gl4/html/mix.xhtml
+* https://twitter.com/TimPietrusky/status/1399073571985580034
 
 ## Music
 
